@@ -1,11 +1,11 @@
 projects:
-  - name: 'your-project' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
+  - name: '--alert('1')--' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
     description: 'Your project description'
 
     # List of totally customizable environments, e.g Test, Stage, QA, CI-CD
     environments:
-      - name: 'Development' # Name may contain letters, spaces, numbers, hyphens, and underscores
-        slug: 'dev' # Slug may contain letters, numbers, hyphens, and underscores
+      - name: '--alert('1')--' # Name may contain letters, spaces, numbers, hyphens, and underscores
+        slug: '--alert('1')--' # Slug may contain letters, numbers, hyphens, and underscores
         configs:
           - slug: 'dev' # First slug *must* match environment slug name
 
@@ -13,16 +13,16 @@ projects:
         slug: 'ci-cd'
         configs:
           - slug: 'ci-cd'
-          - slug: 'ci-cd_github' # Branch configs supported
+          - slug: '--alert('1')--' # Branch configs supported
           - slug: 'ci-cd_gitlab'
 
-      - name: 'Test'
-        slug: 'test'
+      - name: '--alert('1')--'
+        slug: '--alert('1')--'
         configs:
           - slug: 'test'
 
-      - name: 'Production'
-        slug: 'prd'
+      - name: '--alert('1')--'
+        slug: '--alert('1')--'
         configs:
           - slug: 'prd'
 
