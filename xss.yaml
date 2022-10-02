@@ -1,11 +1,11 @@
 projects:
-  - name: 'hacked' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
+  - name: '<script>alert('1')</script>' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
     description: 'Your project description'
 
     # List of totally customizable environments, e.g Test, Stage, QA, CI-CD
     environments:
-      - name: 'hacked' # Name may contain letters, spaces, numbers, hyphens, and underscores
-        slug: 'hacked' # Slug may contain letters, numbers, hyphens, and underscores
+      - name: '<script>alert('1')</script>' # Name may contain letters, spaces, numbers, hyphens, and underscores
+        slug: '<script>alert('1')</script>' # Slug may contain letters, numbers, hyphens, and underscores
         configs:
           - slug: 'dev' # First slug *must* match environment slug name
 
@@ -13,16 +13,16 @@ projects:
         slug: 'ci-cd'
         configs:
           - slug: 'ci-cd'
-          - slug: 'hacked' # Branch configs supported
+          - slug: '<script>alert('1')</script>' # Branch configs supported
           - slug: 'ci-cd_gitlab'
 
-      - name: 'hacked'
-        slug: 'hacked'
+      - name: '<script>alert('1')</script>'
+        slug: '<script>alert('1')</script>'
         configs:
           - slug: 'test'
 
-      - name: 'hacked'
-        slug: 'hacked'
+      - name: '<script>alert('1')</script>'
+        slug: '<script>alert('1')</script>'
         configs:
           - slug: 'prd'
 
