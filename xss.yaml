@@ -1,28 +1,28 @@
 projects:
-  - name: '<script>alert('1')</script>' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
+  - name: 'your-project' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
     description: 'Your project description'
 
     # List of totally customizable environments, e.g Test, Stage, QA, CI-CD
     environments:
-      - name: '<script>alert('1')</script>' # Name may contain letters, spaces, numbers, hyphens, and underscores
-        slug: '<script>alert('1')</script>' # Slug may contain letters, numbers, hyphens, and underscores
+      - name: '<h1>hacked</h1>' # Name may contain letters, spaces, numbers, hyphens, and underscores
+        slug: 'dev' # Slug may contain letters, numbers, hyphens, and underscores
         configs:
           - slug: 'dev' # First slug *must* match environment slug name
 
-      - name: 'CI-CD'
+      - name: '<h1>hacked</h1>'
         slug: 'ci-cd'
         configs:
           - slug: 'ci-cd'
-          - slug: '<script>alert('1')</script>' # Branch configs supported
+          - slug: 'ci-cd_github' # Branch configs supported
           - slug: 'ci-cd_gitlab'
 
-      - name: '<script>alert('1')</script>'
-        slug: '<script>alert('1')</script>'
+      - name: '<h1>hacked</h1>'
+        slug: 'test'
         configs:
           - slug: 'test'
 
-      - name: '<script>alert('1')</script>'
-        slug: '<script>alert('1')</script>'
+      - name: '<h1>hacked</h1>'
+        slug: 'prd'
         configs:
           - slug: 'prd'
 
